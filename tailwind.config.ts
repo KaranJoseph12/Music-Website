@@ -51,9 +51,9 @@ const config: Config = {
   theme: {
     extend: {
       animation:{
-        spotlight: "spotlight 2s ease .75s 1 forwards",
-        scroll:"scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
         
+        spotlight: "spotlight 2s ease .75s 1 forwards",
+        scroll:"scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite", 
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -61,6 +61,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       keyframes: {
+       
         spotlight: {
           "0%": {
             opacity: '0',
